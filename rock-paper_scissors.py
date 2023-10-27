@@ -8,7 +8,7 @@ while(parts<=0):
     print("u need at least one round")
     parts=int(input("how many rounds do wanna play? "))
     
-for i in range(parts):
+for i in range(1,parts+1):
     print("round number: ",i)
     player1=input("player 1 choose: ")
     player2=input("player 2 choose: ")
