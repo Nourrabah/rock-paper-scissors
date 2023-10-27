@@ -14,9 +14,9 @@ for i in range(parts):
     player2=input("player 2 choose: ")
     
         
-    if(player1==rock and player2==papier):
+    if(player1==scissors and player2==rock):
         print("player2 won ")
-        score1+=1
+        score2+=1
         
     elif(player1==papier and player2==rock):
         print("player 1 won")
